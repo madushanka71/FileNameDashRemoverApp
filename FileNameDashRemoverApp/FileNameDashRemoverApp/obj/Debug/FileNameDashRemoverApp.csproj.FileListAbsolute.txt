@@ -1,0 +1,6 @@
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\bin\Debug\FileNameDashRemoverApp.exe.config
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\bin\Debug\FileNameDashRemoverApp.exe
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\bin\Debug\FileNameDashRemoverApp.pdb
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\obj\Debug\FileNameDashRemoverApp.csproj.CoreCompileInputs.cache
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\obj\Debug\FileNameDashRemoverApp.exe
+D:\Projects\FileNameDashRemoverApp\FileNameDashRemoverApp\FileNameDashRemoverApp\obj\Debug\FileNameDashRemoverApp.pdb
