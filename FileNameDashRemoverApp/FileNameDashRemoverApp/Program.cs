@@ -71,8 +71,8 @@ namespace FileNameDashRemoverApp
 
         private static List<string> GetPhrases(List<string> phrss)
         {
-            int entKey = (char)13;
-            int escKey = (char)27;
+            //int entKey = (char)13;
+            //int escKey = (char)27;
             string input;
             string confStr;
             int conf;
@@ -81,32 +81,28 @@ namespace FileNameDashRemoverApp
             Console.WriteLine("Enter phrase/s to replace. Enter escape to stop entering...");
 
             //Console.ReadKey(true).Key
-            while (Console.ReadKey().Key != ConsoleKey.Escape)
-            {
-                input = Console.ReadLine();
-                phrss.Add(input);
-            }
+            //while (Console.ReadKey().Key != ConsoleKey.Escape)
+            //{
+            //    input = Console.ReadLine();
+            //    phrss.Add(input);
+            //}
 
-            bool ext;
-            do
+            
+                bool ext = true;
+            while (ext)
             {
                 input = Console.ReadLine();
-                if (Console.ReadKey().Key == ConsoleKey.Enter)
-                {
-                    ext = false;
-                    phrss.Add(input);
-                }
-                else if (Console.ReadKey().Key == ConsoleKey.Escape)
+                var ekey = Console.ReadKey().Key;
+                if (ekey == ConsoleKey.Enter)
                 {
                     ext = true;
-                    break;
+                    phrss.Add(input);
                 }
-            } while (true);
-
-
-
-
-
+                else if (ekey == ConsoleKey.Escape)
+                {
+                    ext = false;
+                }
+            }
 
             Console.WriteLine("|------------------ you have entered --------------------------|");
 
